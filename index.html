@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=initial-width, initial-scale=1.0">
+
+        <title>Sandra's Bistro</title>
+
+        <link rel="stylesheet" href="css/animate.css" type="text/css">
+        <link rel="stylesheet" href="css/grid.css" type="text/css">
+        <link rel="stylesheet" href="css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/queries.css" type="text/css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <section class="form-page">
+
+            <div class="image-box col span-1-of-3">
+                <img src="img/desktop.png" class="sidebar">
+            </div>
+
+            <div>
+                <img src="img/header.png" class="header">
+            </div>
+
+            <div class="col span-2-of-3">
+                <h1 class="head-text">SANDRA'S BISTRO</h1>
+                <p class="sign-up">Sign Up</p>
+                <div class="form-fields">
+                    <form>
+                        <label for="lname">Last name</label><br>
+                        <input type=" text"><br>
+                        <label for="lname">First name</label><br>
+                        <input type=" text"><br>
+                        <label for="lname">Email address</label><br>
+                        <input type=" text"><br>
+                        <label for="lname">Password</label><br>
+                        <input type=" text" id="password-field">
+                        <ion-icon name="eye-off" class="eye-off" id="pass-status" onClick="viewPassword()"></ion-icon>
+                    </form>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="offers" class="check-button"><label for="offers" class="check-text">Yes, I would like to receive email offers from Sandra's Bistro.</label>
+                    </div>
+
+                <div class="submit">
+                    <a class="submit-button" href="#">Create Profile</a>
+                </div>
+
+                <div class="footer">
+                    <ul>
+                        <li>About</li>
+                        <li>FAQ</li>
+                        <li>Terms Of Use</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    </body>
+</html>

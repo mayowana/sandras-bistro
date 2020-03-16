@@ -1,0 +1,160 @@
+
+@media only screen and (max-width: 1200px) {
+	.homepagetext	 {
+						width: 100%;
+						padding: 0 2%;
+					}
+
+	.row { padding: 0 2%; }
+}
+
+
+@media only screen and (max-width: 1023px) {
+	body { font-size: 18px; }
+    section { padding: 60px 0; }
+	
+	.form-fields {
+		width: 100%;
+	}
+
+	
+	.header {
+    	display: block;
+		width: 100%;
+		padding: 0;
+	}
+	
+	.sidebar,
+	.head-text {
+		display: none;
+	}
+
+	.sign-up {
+		margin-top: 40px;
+		padding-left: 30px;
+	}
+
+	.form-fields {
+		padding-left: 30px;
+		font-size: 14px;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	.checkbox {
+		display: block;
+		margin: 0;
+	}
+
+	.check-button {
+		float: left;
+		margin: 0;
+		width: 40px;
+	}
+
+	.check-text {
+		position: relative;
+		bottom: 25px;
+		display: inline-block;
+		vertical-align: middle;
+		padding: 15px 0;
+		width: 85%;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: normal;
+		color: black;
+		font-size: 14px;
+	}
+
+	.eye-off {
+		right: 30px;
+	}
+    
+
+
+
+@media only screen and (max-width: 767px) {
+	body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+	.form-page {
+		padding: 0;
+	}
+
+	.header {
+    	display: block;
+		width: 100%;
+		padding: 0;
+	}
+	
+	.sidebar,
+	.head-text {
+		display: none;
+	}
+
+	.sign-up {
+		margin-top: 40px;
+		padding-left: 30px;
+	}
+
+	.form-fields {
+		padding-left: 30px;
+		font-size: 14px;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	.checkbox {
+		display: block;
+		margin: 0;
+	}
+
+	.check-button {
+		float: left;
+		margin: 0;
+		width: 40px;
+	}
+
+	.check-text {
+		position: relative;
+		bottom: 25px;
+		display: inline-block;
+		vertical-align: middle;
+		padding: 15px 0;
+		width: 85%;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: normal;
+		color: black;
+		font-size: 14px;
+	}
+
+	.eye-off {
+		right: 30px;
+	}
+    
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+	 section { padding: 25px 0; }
+    .contact-form {width: 100%; }
+
+.form-page {
+	padding: 0;
+	}
+}
+}
+}
